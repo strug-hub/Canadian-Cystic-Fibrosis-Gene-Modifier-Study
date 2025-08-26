@@ -88,6 +88,5 @@ Guillaume Côté-Maurais<sup>6</sup>, Stéphanie Bégin<sup>6</sup>, Damien Adam
 https://hifisolves.org/collections/canadian-cystic-fibrosis-hifi-dataset/overview
 
 # Publications
-
-- Gong, Jiafen et al. “**Genetic evidence supports the development of SLC26A9 targeting therapies for the treatment of lung disease**.” NPJ genomic medicine vol. 7,1 28. 8 Apr. 2022, doi:10.1038/s41525-022-00299-9
-- Mastromatteo, Scott et al. “**High-quality read-based phasing of cystic fibrosis cohort informs genetic understanding of disease modification**.” HGG advances vol. 4,1 100156. 20 Oct. 2022, doi:10.1016/j.xhgg.2022.100156
+- Gong, Jiafen et al. “[Genetic evidence supports the development of SLC26A9 targeting therapies for the treatment of lung disease.](https://pubmed.ncbi.nlm.nih.gov/35396391/)” NPJ genomic medicine vol. 7,1 28. 8 Apr. 2022, doi:10.1038/s41525-022-00299-9
+- Mastromatteo, Scott et al. “[High-quality read-based phasing of cystic fibrosis cohort informs genetic understanding of disease modification.](https://pubmed.ncbi.nlm.nih.gov/36386424/)” HGG advances vol. 4,1 100156. 20 Oct. 2022, doi:10.1016/j.xhgg.2022.100156
