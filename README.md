@@ -7,10 +7,15 @@ Individuals are consented to have blood drawn and sequenced at the The Centre fo
 
 # Canadian Cystic Fibrosis Gene Modifier Consortium 
 
-Guillaume Côté-Maurais<sup>6</sup>, Stéphanie Bégin<sup>6</sup>, Damien Adam<sup>6,7</sup>, Emmanuelle Brochiero<sup>6,7</sup>, Candice Bjornson<sup>8</sup>, Michael Parkins<sup>9</sup>, Winnie M Leung<sup>10</sup>, Mark Chilvers<sup>11</sup>, Pearce Wilcox<sup>12</sup>, Bradley S Quon<sup>12</sup>, Dimas Mateos-Corral<sup>13</sup>, Daniel Hughes<sup>13</sup>, Nancy Morrison<sup>14</sup>, Mary Jane Smith<sup>15</sup>, April Price<sup>16</sup>, Richard van Wylick<sup>17</sup>, Elizabeth Tullis<sup>18</sup>, Anne L Stephenson<sup>18</sup>, Melinda Solomon<sup>19</sup>, Felix Ratjen<sup>1,20</sup>, Lisa J Strug<sup>1,2,3,4,5</sup>  
+Guillaume Côté-Maurais<sup>6</sup>, Stéphanie Bégin<sup>6</sup>, Damien Adam<sup>6,7</sup>, Emmanuelle Brochiero<sup>6,7</sup>, Candice Bjornson<sup>8</sup>, Michael Parkins<sup>9</sup>, Winnie M Leung<sup>10</sup>, Mark Chilvers<sup>11</sup>, Pearce Wilcox<sup>12</sup>, Bradley S Quon<sup>12</sup>, Dimas Mateos-Corral<sup>13</sup>, Daniel Hughes<sup>13</sup>, Nancy Morrison<sup>14</sup>, Mary Jane Smith<sup>15</sup>, April Price<sup>16</sup>, Richard van Wylick<sup>17</sup>, Elizabeth Tullis<sup>18</sup>, Anne L Stephenson<sup>18</sup>, Melinda Solomon<sup>19</sup>, Felix Ratjen<sup>1,20</sup>, Lisa J Strug<sup>1,2,3,4,5</sup>
 
 ---
 
+<sup>1</sup> Program in Genetics and Genome Biology, The Hospital for Sick Children, Toronto, ON, Canada.  
+<sup>2</sup> The Centre for Applied Genomics, The Hospital for Sick Children, Toronto, ON, Canada.  
+<sup>3</sup> Department of Statistical Sciences, University of Toronto, Toronto, ON, Canada.  
+<sup>4</sup> Biostatistics Division, Dalla Lana School of Public Health, University of Toronto, ON, Canada.  
+<sup>5</sup> Department of Computer Science, University of Toronto, Toronto, ON, Canada.  
 <sup>6</sup> Centre de recherche du centre hospitalier de l'Université de Montréal (CRCHUM), Montréal, QC, Canada.  
 <sup>7</sup> Department of Medicine, Faculty of Medicine, Université de Montréal, Montréal, QC, Canada.  
 <sup>8</sup> Alberta Children's Hospital, Calgary, AB, Canada.  
