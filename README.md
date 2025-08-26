@@ -8,6 +8,7 @@ Individuals are consented to have blood drawn and sequenced at the The Centre fo
 ## Centre Participants
 **Participants from 9 provinces across Canada**
 
+![Canadian CF Gene Modifier Study Map](cf_gms_map.svg)
 
 ![BC](https://img.shields.io/badge/BC-%232d91cc) St. Paul’s Hospital  
 ![BC](https://img.shields.io/badge/BC-%232d91cc) BC Children’s Hospital  
