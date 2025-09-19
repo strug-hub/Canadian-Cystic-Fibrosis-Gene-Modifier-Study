@@ -33,7 +33,7 @@ def format_name(name, aff, is_pi, mode, offset=0):
 def main():
     parser = argparse.ArgumentParser(description="Format CF GMS Consortium author list.")
     parser.add_argument("excel_file", help="Path to canadian_cf_gms_collaborators.xlsx")
-    parser.add_argument("--pi", action="store_true", help="Mark site PIs with *")
+    parser.add_argument("--pi", action="store_true", help="Show only site PIs")
     parser.add_argument("--latex", action="store_true", help="Output in LaTeX format")
     parser.add_argument("--github", action="store_true", help="Output in GitHub/Markdown format")
     parser.add_argument("--start", type=int, default=0, help="Offset for affiliation numbers")
@@ -51,74 +51,74 @@ def main():
     sites = pd.read_excel(args.excel_file, sheet_name="sites")
     former = pd.read_excel(args.excel_file, sheet_name="former")
 
+    # Filter based on --pi flag
+    if args.pi:
+        current = current[current["PI"].astype(str).str.strip() == "*"]
+        former = former[former["PI"].astype(str).str.strip() == "*"]
+
     if mode == "latex":
         # Consortium
-        print("Canadian Cystic Fibrosis Gene Modifier Consortium")
-        print("")
+        print("Canadian Cystic Fibrosis Gene Modifier Consortium\n")
         # Authors
         for _, row in current.iterrows():
             name = clean_name(row["Collaborator Name"])
             first, last = split_name(name)
             aff = int(row["Affiliation #"]) + args.start
             is_pi = str(row.get("PI", "")).strip() == "*"
-            star = "*" if (args.pi and is_pi) else ""
+            star = "" if args.pi else ("*" if is_pi else "")
 
             line = (
                 f"\\author{star}[{aff}]{{\\fnm{{{first}}} \\sur{{{last}}}}}\\email{{}}"
             )
             print(line)
 
-        if args.pi:
-            print("")
-            print("\\* indicates site Principal Investigator\n")
+        if not args.pi:
+                print ("\n* indicates site Principal Investigator\n")
+
         # Affiliations
         for _, row in sites.iterrows():
             aff = int(row["Affiliation #"]) + args.start
-            name = row["Name"]
-            city = row["City"]
-            province = row["Province"]
-            country = row["Country"]
-
             affil_line = (
-                f"\\affil[{aff}]{{\\orgname{{{name}}}, "
-                f"\\orgaddress{{\\city{{{city}}}, \\state{{{province}}}, \\country{{{country}}}}}" + "}"
+                f"\\affil[{aff}]{{\\orgname{{{row['Name']}}}, "
+                f"\\orgaddress{{\\city{{{row['City']}}}, "
+                f"\\state{{{row['Province']}}}, "
+                f"\\country{{{row['Country']}}}}}" + "}"
             )
             print(affil_line)
 
-
-
     elif mode == "github":
-        # Current
         formatted_current = []
         for _, row in current.iterrows():
             aff = int(row["Affiliation #"])
             is_pi = str(row.get("PI", "")).strip() == "*"
             formatted = format_name(
-                row["Collaborator Name"], aff, is_pi and args.pi, mode, args.start
+                row["Collaborator Name"], aff,
+                (not args.pi and is_pi),  # mark with * only if not filtering
+                mode, args.start
             )
             formatted_current.append(formatted)
 
         print("Canadian Cystic Fibrosis Gene Modifier Consortium\n")
         print(", ".join(formatted_current))
 
-        # Past contributors
-        formatted_former = []
-        for _, row in former.iterrows():
-            aff = int(row["Affiliation #"])
-            is_pi = str(row.get("PI", "")).strip() == "*"
-            formatted = format_name(
-                row["Collaborator Name"], aff, is_pi and args.pi, mode, args.start
-            )
-            formatted_former.append(formatted)
+        if not former.empty:
+            formatted_former = []
+            for _, row in former.iterrows():
+                aff = int(row["Affiliation #"])
+                is_pi = str(row.get("PI", "")).strip() == "*"
+                formatted = format_name(
+                    row["Collaborator Name"], aff,
+                    (not args.pi and is_pi),
+                    mode, args.start
+                )
+                formatted_former.append(formatted)
 
-        print("\n## Past contributors\n")
-        print(", ".join(formatted_former))
+            print("\n## Past contributors\n")
+            print(", ".join(formatted_former))
 
         print("\n---\n")
-        if args.pi:
-            print("\\* indicates site Principal Investigator\n")
 
-        # Affiliations with shields
+        # Affiliations
         shield_colors = {
             "ON": "d7212e",
             "AB": "39b577",
@@ -146,21 +146,23 @@ def main():
             aff = int(row["Affiliation #"])
             is_pi = str(row.get("PI", "")).strip() == "*"
             formatted = format_name(
-                row["Collaborator Name"], aff, is_pi and args.pi, mode, args.start
+                row["Collaborator Name"], aff,
+                (not args.pi and is_pi),
+                mode, args.start
             )
             formatted_current.append(formatted)
 
         print("Canadian Cystic Fibrosis Gene Modifier Consortium\n")
         print(", ".join(formatted_current))
 
-        if args.pi:
-            print("\n* indicates site Principal Investigator\n")
-
+        if not args.pi:
+                print ("\n* indicates site Principal Investigator")
         print("\nAffiliations\n")
         for _, row in sites.iterrows():
             aff = int(row["Affiliation #"]) + args.start
             aff_text = f"{aff}. {row['Name']}, {row['City']}, {row['Province']}, {row['Country']}."
             print(aff_text)
+
 
 if __name__ == "__main__":
     main()
