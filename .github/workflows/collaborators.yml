@@ -22,11 +22,11 @@ jobs:
 
       - name: Generate collaborators.txt
         run: |
-          python script.py canadian_cf_gms_collaborators.xlsx --pi > collaborators.txt
+          python format.py canadian_cf_gms_collaborators.xlsx --pi > collaborators.txt
 
       - name: Generate collaborators.tex
         run: |
-          python script.py canadian_cf_gms_collaborators.xlsx --pi --latex > collaborators.tex
+          python format.py canadian_cf_gms_collaborators.xlsx --pi --latex > collaborators.tex
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
