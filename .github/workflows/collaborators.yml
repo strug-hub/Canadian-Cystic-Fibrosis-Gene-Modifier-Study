@@ -1,0 +1,37 @@
+name: Generate Collaborator Lists
+
+on:
+  push:
+    branches:
+      - main   # adjust if you want to run on a different branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas openpyxl
+
+      - name: Generate collaborators.txt
+        run: |
+          python script.py canadian_cf_gms_collaborators.xlsx --pi > collaborators.txt
+
+      - name: Generate collaborators.tex
+        run: |
+          python script.py canadian_cf_gms_collaborators.xlsx --pi --latex > collaborators.tex
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: collaborators-output
+          path: |
+            collaborators.txt
+            collaborators.tex
