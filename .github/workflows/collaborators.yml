@@ -28,6 +28,10 @@ jobs:
         run: |
           python format.py canadian_cf_gms_collaborators.xlsx --pi --latex > collaborators.tex
 
+      - name: Generate collaborators.md
+        run: |
+          python format.py canadian_cf_gms_collaborators.xlsx --pi --github > collaborators.md
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -35,3 +39,4 @@ jobs:
           path: |
             collaborators.txt
             collaborators.tex
+            collaborators.md
