@@ -32,15 +32,18 @@ Individuals are consented to have blood drawn and sequenced at the The Centre fo
 
 # Canadian Cystic Fibrosis Gene Modifier Consortium
 
-Lisa J Strug*<sup>1</sup>, Katherine Keenan<sup>1</sup>, Felix Ratjen*<sup>1</sup>, Johanna Rommens*<sup>1</sup>, Melinda Solomon*<sup>1</sup>, Fan Lin<sup>1</sup>, Liz Li<sup>1</sup>, Julie Avolio<sup>1</sup>, Mohsen Esmaeili<sup>1</sup>, Scott Mastromatteo<sup>1</sup>, Cheng Wang<sup>1</sup>, Delnaz Roshandel<sup>1</sup>, Shalvi Chirmade<sup>1</sup>, Bhooma Thiruvahindrapuram<sup>1</sup>, Zhuozhi Wang<sup>1</sup>, Rohan Patel<sup>1</sup>, Joe Whitney<sup>1</sup>, Candice Bjornson*<sup>2</sup>, Mark Chilvers*<sup>3</sup>, Isaac Chen<sup>3</sup>, Joe Reisman*<sup>4</sup>, April Price*<sup>5</sup>, Erin Fleischer<sup>5</sup>, Shaikh Iqbal*<sup>6</sup>, Michael Parkins*<sup>7</sup>, Clare Smith<sup>7</sup>, Linda Pineau*<sup>8</sup>, Michael Derynck*<sup>9</sup>, Sidra Shafique<sup>9</sup>, Emmanuelle Brochiero*<sup>10</sup>, Damien Adam<sup>10</sup>, Guillaume Côté-Maurais<sup>10</sup>, Lara Bilodeau*<sup>11</sup>, Nathalie Vadeboncoeur<sup>11</sup>, Élise Boucher<sup>11</sup>, Dimas Mateos-Corral*<sup>12</sup>, Paula Barrett<sup>12</sup>, Liana Manara-Berryman<sup>12</sup>, Mary Jane Smith*<sup>13</sup>, Andrea Dale<sup>14</sup>, Nita Chauhan*<sup>15</sup>, Dawn Johnson<sup>15</sup>, Heather Racz*<sup>16</sup>, Daniel Veniott<sup>16</sup>, Liz Tullis*<sup>17</sup>, Anne Stephenson*<sup>17</sup>, Jennifer Pike<sup>17</sup>, Arunan Selvarajah<sup>17</sup>, Bradey Quon*<sup>18</sup>, Pearce Wilcox*<sup>18</sup>, Lynda Lazosky<sup>18</sup>, Yasaman Ghazitabatabai<sup>18</sup>, Winnie M Leung*<sup>19</sup>, Jaled Yehya*<sup>19</sup>, Amy May<sup>19</sup>, Hannah Anstruther<sup>19</sup>, Lei Sun*<sup>20</sup>, Christelle Bergeron*<sup>22</sup>, Josee Lessard<sup>22</sup>, Larry Lands*<sup>23</sup>, Joanie Gonthier<sup>23</sup>, Shakiba Rahimeyanjo<sup>23</sup>
+Study PI: Lisa J Strug*<sup>1</sup>
+Study Coordinator: Katherine Keenan<sup>1</sup>
+
+Site PIs:
+
+Lisa J Strug<sup>1</sup>, Felix Ratjen<sup>1</sup>, Johanna Rommens<sup>1</sup>, Melinda Solomon<sup>1</sup>, Candice Bjornson<sup>2</sup>, Mark Chilvers<sup>3</sup>, Joe Reisman<sup>4</sup>, April Price<sup>5</sup>, Shaikh Iqbal<sup>6</sup>, Michael Parkins<sup>7</sup>, Linda Pineau<sup>8</sup>, Michael Derynck<sup>9</sup>, Emmanuelle Brochiero<sup>10</sup>, Lara Bilodeau<sup>11</sup>, Dimas Mateos-Corral<sup>12</sup>, Mary Jane Smith<sup>13</sup>, Nita Chauhan<sup>15</sup>, Heather Racz<sup>16</sup>, Liz Tullis<sup>17</sup>, Anne Stephenson<sup>17</sup>, Bradey Quon<sup>18</sup>, Pearce Wilcox<sup>18</sup>, Winnie M Leung<sup>19</sup>, Jaled Yehya<sup>19</sup>, Lei Sun<sup>20</sup>, Christelle Bergeron<sup>22</sup>, Larry Lands<sup>23</sup>
 
 ## Past contributors
 
-Bowei Xiao<sup>1</sup>, Anat Halevy<sup>1</sup>, Jiafen Gong<sup>1</sup>, Clodagh Curran<sup>1</sup>, Wilson Sung<sup>1</sup>, Lori Fairservice<sup>2</sup>, Vanessa McMahon<sup>3</sup>, Caroline Burgess<sup>3</sup>, Tony Gao<sup>3</sup>, Terry Viczko<sup>3</sup>, Matthew Wan<sup>3</sup>, Nivedita Dutt<sup>3</sup>, Nicole Libunao<sup>3</sup>, Sameena Somani<sup>3</sup>, Tate McGovern<sup>3</sup>, Anne Smith<sup>4</sup>, Jennifer Itterman<sup>5</sup>, Raquel Consunji-Araneta*<sup>6</sup>, Jane Mayo<sup>6</sup>, Jeanette Leong<sup>7</sup>, Valerie Levesque<sup>7</sup>, Richard van Wylick*<sup>9</sup>, Natalie Henderson<sup>9</sup>, Martin Ogwuru<sup>9</sup>, Sahar Mohamed<sup>9</sup>, Émilie Maillé<sup>10</sup>, Mays Merjaneh<sup>10</sup>, Stéphanie Bégin<sup>10</sup>, Sandra Morissette<sup>10</sup>, Andrée-Anne Therrien<sup>11</sup>, Daniel Hughes*<sup>12</sup>, Christine Donnelly<sup>12</sup>, Nancy Morrison*<sup>14</sup>, Fran Gosse<sup>14</sup>, Janna Brusky*<sup>15</sup>, Lorna Kosteniuk<sup>15</sup>, Mary Jackson*<sup>16</sup>, Katherine Griffin<sup>17</sup>, Kamalprit Chokar<sup>17</sup>, Joey Fu<sup>18</sup>, Eri Flores<sup>18</sup>, Judy Song<sup>18</sup>, Eugenie Kwong<sup>18</sup>, Emma Karlsen<sup>18</sup>, Ekjot Sangha<sup>18</sup>, Ronak Salamat Ravandi<sup>18</sup>, Jacob Gravelle<sup>18</sup>, Minh Nguyen<sup>18</sup>, Jiayi Li<sup>18</sup>, Josette Salgado<sup>19</sup>, Angela Hillaby<sup>19</sup>, Yves Berthiaume*<sup>21</sup>, Andre Cantin*<sup>22</sup>
+Raquel Consunji-Araneta<sup>6</sup>, Richard van Wylick<sup>9</sup>, Daniel Hughes<sup>12</sup>, Nancy Morrison<sup>14</sup>, Janna Brusky<sup>15</sup>, Mary Jackson<sup>16</sup>, Yves Berthiaume<sup>21</sup>, Andre Cantin<sup>22</sup>
 
 ---
-
-\* indicates site Principal Investigator
 
 ![ON](https://img.shields.io/badge/1-ON-%23d7212e) The Hospital for Sick Children, Toronto, ON, Canada.  
 ![AB](https://img.shields.io/badge/2-AB-%2339b577) Alberta Children’s Hospital, Calgary, AB, Canada.  
@@ -65,7 +68,6 @@ Bowei Xiao<sup>1</sup>, Anat Halevy<sup>1</sup>, Jiafen Gong<sup>1</sup>, Clodag
 ![QC](https://img.shields.io/badge/21-QC-%23dc0b89) Department of Medicine, Faculty of Medicine, Université de Montréal, Montréal, QC, Canada.  
 ![QC](https://img.shields.io/badge/22-QC-%23dc0b89) Centre hospitalier universitaire de Sherbrooke (CHUS), Sherbrooke, QC, Canada.  
 ![QC](https://img.shields.io/badge/23-QC-%23dc0b89) Montreal Children’s Hospital, Montréal, QC, Canada.  
-
 
 # Data
 
