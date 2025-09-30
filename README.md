@@ -33,6 +33,7 @@ Individuals are consented to have blood drawn and sequenced at the The Centre fo
 # Canadian Cystic Fibrosis Gene Modifier Consortium
 
 **Study PI**: Lisa J Strug<sup>1</sup>
+
 **Study Coordinator**: Katherine Keenan<sup>1</sup>
 
 **Site PIs**:
