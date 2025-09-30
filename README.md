@@ -32,14 +32,14 @@ Individuals are consented to have blood drawn and sequenced at the The Centre fo
 
 # Canadian Cystic Fibrosis Gene Modifier Consortium
 
-Study PI: Lisa J Strug*<sup>1</sup>
-Study Coordinator: Katherine Keenan<sup>1</sup>
+**Study PI**: Lisa J Strug<sup>1</sup>
+**Study Coordinator**: Katherine Keenan<sup>1</sup>
 
-Site PIs:
+**Site PIs**:
 
 Lisa J Strug<sup>1</sup>, Felix Ratjen<sup>1</sup>, Johanna Rommens<sup>1</sup>, Melinda Solomon<sup>1</sup>, Candice Bjornson<sup>2</sup>, Mark Chilvers<sup>3</sup>, Joe Reisman<sup>4</sup>, April Price<sup>5</sup>, Shaikh Iqbal<sup>6</sup>, Michael Parkins<sup>7</sup>, Linda Pineau<sup>8</sup>, Michael Derynck<sup>9</sup>, Emmanuelle Brochiero<sup>10</sup>, Lara Bilodeau<sup>11</sup>, Dimas Mateos-Corral<sup>12</sup>, Mary Jane Smith<sup>13</sup>, Nita Chauhan<sup>15</sup>, Heather Racz<sup>16</sup>, Liz Tullis<sup>17</sup>, Anne Stephenson<sup>17</sup>, Bradey Quon<sup>18</sup>, Pearce Wilcox<sup>18</sup>, Winnie M Leung<sup>19</sup>, Jaled Yehya<sup>19</sup>, Lei Sun<sup>20</sup>, Christelle Bergeron<sup>22</sup>, Larry Lands<sup>23</sup>
 
-## Past contributors
+**Past contributing PIs**:
 
 Raquel Consunji-Araneta<sup>6</sup>, Richard van Wylick<sup>9</sup>, Daniel Hughes<sup>12</sup>, Nancy Morrison<sup>14</sup>, Janna Brusky<sup>15</sup>, Mary Jackson<sup>16</sup>, Yves Berthiaume<sup>21</sup>, Andre Cantin<sup>22</sup>
 
